@@ -1,20 +1,20 @@
 基于图像的水表读数读取方法
 ==================
 
-##环境依赖
+##环境依赖  
 python opencv version:3.4.4
 
 python 3.7.3
 
-##部署步骤
-1.添加python opencv环境:
+##部署步骤  
+1.添加python opencv环境:  
     pip install opencv-python
 
-##目录结构描述
+##目录结构描述  
 ├── Readme.md                   // readme概述  
 ├── main.py                     // 算法主要部分  
 
-##算法概述
+##算法概述  
 算法由以下几个步骤组成：  
 ├── 图像预处理  
 ├── 圆检测  
