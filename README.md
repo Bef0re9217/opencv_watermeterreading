@@ -7,12 +7,8 @@ python opencv version:3.4.4
 python 3.7.3
 
 ##部署步骤  
-<<<<<<< HEAD
-1.添加python opencv环境:
-=======
 1.添加python opencv环境:  
->>>>>>> 7908eb62ea41712a6df10ab16359761001211460
-    pip install opencv-python
+pip install opencv-python
 
 ##目录结构描述  
 ├── Readme.md                   // readme概述  
