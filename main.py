@@ -43,8 +43,8 @@ class watermeter_machine_vision():
         ret, ROIbinary = cv.threshold(ROIGrayImg, 30, 255, cv.THRESH_BINARY)
 
         theta = np.arange(0, 2 * np.pi, np.pi / 180)
-        inner_radius = 30
-        outter_radius = 45
+        inner_radius = int((ROIimg.shape[0]/2)*0.68)
+        outter_radius = int((ROIimg.shape[0]/2)*0.82)
 
         for i in range(len(theta)):
             inner_x, inner_y = self._polar_coordiante_cal(0, 0, inner_radius, theta[i])
