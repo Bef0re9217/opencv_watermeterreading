@@ -20,11 +20,11 @@ pip install opencv-python
 ##算法概述  
 算法由以下几个步骤组成：  
 This algorithm consists of the following steps:
-├── 图像预处理  imagine preprocessing
-├── 圆检测  circle detect
-├── 指针提取  pointer get
-├── 指针角度计算  pointer angel calculate
-└── 示数计算与校正  Reading correction
+├── 图像预处理  imagine preprocessing  
+├── 圆检测  circle detect  
+├── 指针提取  pointer get  
+├── 指针角度计算  pointer angel calculate  
+└── 示数计算与校正  Reading correction  
 1.输入一张水表图像，经过算法处理后，可以算得水表下方指针的读数。  
 Input an watermeter image.This algorithm can calculate the reading of pointer
 2.目前可以支持读取三个小表盘以上的水表，读取的表盘倍数需要自左向右依次变大。  
