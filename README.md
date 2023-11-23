@@ -26,16 +26,16 @@ This algorithm consists of the following steps:
 ├── 指针角度计算  pointer angel calculate  
 └── 示数计算与校正  Reading correction  
 1.输入一张水表图像，经过算法处理后，可以算得水表下方指针的读数。  
-Input an watermeter image.This algorithm can calculate the reading of pointer
+Input an watermeter image.This algorithm can calculate the reading of pointer.  
 2.目前可以支持读取三个小表盘以上的水表，读取的表盘倍数需要自左向右依次变大。  
-Support three dials.The read dial multiple needs to be larger from left to right.
+Support three dials.The read dial multiple needs to be larger from left to right.  
 3.指针颜色必须为红色  
-Colour of pointer must be red
+Colour of pointer must be red.  
 4.水表图像必须摆正  
-Watermeter image must vertical
+Watermeter image must vertical.  
 5.图像需要为正方形，且分辨率大于800*800
-Resolution must bigger than 800*800
+Resolution must bigger than 800*800.  
 
 ##Jul.10.2019 commit  
-修复在ROI分辨率变化时可能会出现除数为0的bug
-Fix divide 0 error while ROI change
+修复在ROI分辨率变化时可能会出现除数为0的bug  
+Fix divide 0 error while ROI change  
