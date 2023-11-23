@@ -19,7 +19,7 @@ pip install opencv-python
 
 ##算法概述  
 算法由以下几个步骤组成：  
-This algorithm consists of the following steps:
+This algorithm consists of the following steps:  
 ├── 图像预处理  imagine preprocessing  
 ├── 圆检测  circle detect  
 ├── 指针提取  pointer get  
